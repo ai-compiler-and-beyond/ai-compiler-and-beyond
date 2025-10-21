@@ -18,8 +18,8 @@ Some additional paper analyses contributed by our team are provided as supplemen
 
 ## AI Accelerators
 
-### FPGA Overlay
-**[FlightVGM: Efficient Video Generation Model Inference with Online Sparsification and Hybrid Precision on FPGAs](https://dl.acm.org/doi/10.1145/3706628.3708864)** — Liu, Jun *et al.*, *IEEE FPGA'2025*, **Best Paper**. *(23 pages)*
+- **FPGA Overlay**
+  - [FlightVGM: Efficient Video Generation Model Inference with Online Sparsification and Hybrid Precision on FPGAs](https://dl.acm.org/doi/10.1145/3706628.3708864)** — Liu, Jun *et al.*, *IEEE FPGA'2025*, **Best Paper**. *(23 pages)*
 
 
 ##  📑 HLS
