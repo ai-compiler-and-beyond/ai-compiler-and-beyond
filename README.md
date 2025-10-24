@@ -28,9 +28,11 @@ Some additional paper analyses contributed by our team are provided as supplemen
 
 ## Code Optimization
 - **Loop Transform**
-  - Loop tile and reordering: [Tile Size and Loop Order Selection using Machine Learning for Multi-/Many-Core Architectures](https://dl.acm.org/doi/abs/10.1145/3650200.3656630)** — Shilpa Babalad *et al.*, Indian Institute of Science, *ACM International Conference on Supercomputing (ICS'2024)*. *(12 pages)*
+  - Loop tile and reordering: 
+    [Tile Size and Loop Order Selection using Machine Learning for Multi-/Many-Core Architectures](https://dl.acm.org/doi/abs/10.1145/3650200.3656630)** — Shilpa Babalad *et al.*, Indian Institute of Science, *ACM International Conference on Supercomputing (ICS'2024)*. *(12 pages)*
     <details close>
-      <summary> Insights </summary>
+      <summary><b>Key Insights</b></summary>
+        
         The authors note that “the tile size and the loop order together result in the best performance. To the best of our knowledge, there does not exist any work that identifies the best-performing tile size and loop order together for nested loops.”
 
         These findings are consistent with our observations from loop transformations for our own accelerator, as traditional ILP-based polyhedral transformations (e.g., Pluto) may fail to discover architecture-specific optimal transformations — especially when loop interactions and cache behaviors are non-trivial.
