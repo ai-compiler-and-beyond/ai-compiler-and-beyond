@@ -1,7 +1,14 @@
 # 🧠 AI-Compiler-and-Beyond
 Focusing on key AI compiler papers from academia and industry, covering related areas such as AI accelerators, code optimization, and high-level synthesis, etc.
 
-Some additional paper analyses contributed by our team are provided as supplementary materials(mostly in Chinese).
+Additional analyses and insights from the paper are summarized and provided in the expandable supplementary section below.
+
+<details close>
+  <summary><b>Supplementary Analyses and Insights</b></summary>
+
+  (content here)
+</details>
+
 
 ##  Table of Contents
 <!-- - [Papers](#papers)
