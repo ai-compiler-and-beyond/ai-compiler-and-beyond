@@ -16,24 +16,24 @@ Some additional paper analyses contributed by our team are provided as supplemen
   - [Loop Transform](#loop-transform)
 ---
 
-##  AI Compiler
+#  AI Compiler
 
-### Dataflow Optimization
+#### Dataflow Optimization
   - [Principle based Dataflow Optimization for Communication lower bound in operator-fused tensor Acceler](https://ieeexplore.ieee.org/document/11132765)** — Xu, Lei *et al.*, SJTU, *IEEE/ACM DAC 62nd 2025*. *(7 pages)*
-...
 
-## AI Accelerators
+---
+# AI Accelerators
 
-### FPGA Overlay
+#### FPGA Overlay
   - [FlightVGM: Efficient Video Generation Model Inference with Online Sparsification and Hybrid Precision on FPGAs](https://dl.acm.org/doi/10.1145/3706628.3708864)** — Liu, Jun *et al.*, SJTU, *IEEE FPGA'2025*, **Best Paper**. *(23 pages)*
     <details close>
       <summary><b> Key Insights and Interpretation </b></summary>
       balabalablbabablablablabla
     </details>
 
-...
-## Code Optimization
-### Loop Transform
+---
+# Code Optimization
+#### Loop Transform
   - Loop tile and reordering: 
     [Tile Size and Loop Order Selection using Machine Learning for Multi-/Many-Core Architectures](https://dl.acm.org/doi/abs/10.1145/3650200.3656630)** — Shilpa Babalad *et al.*, Indian Institute of Science, *ACM International Conference on Supercomputing (ICS'2024)*. *(12 pages)*
     <details close>
