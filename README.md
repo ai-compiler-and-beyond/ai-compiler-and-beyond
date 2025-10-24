@@ -10,6 +10,8 @@ Some additional paper analyses contributed by our team are provided as supplemen
   - [Dataflow Optimization](#dataflow-optimization)
 - [AI Accelerators](#ai-compiler)
   - [FPGA Overlay](#fpga-overlay)
+- [Code Optimization](#code-optimization)
+  - [Loop Transform](#loop-transform)
 ---
 ##  AI Compiler
 
@@ -21,7 +23,7 @@ Some additional paper analyses contributed by our team are provided as supplemen
 - **FPGA Overlay**
   - [FlightVGM: Efficient Video Generation Model Inference with Online Sparsification and Hybrid Precision on FPGAs](https://dl.acm.org/doi/10.1145/3706628.3708864)** — Liu, Jun *et al.*, SJTU, *IEEE FPGA'2025*, **Best Paper**. *(23 pages)*
     <details close>
-      <summary> Interpretation </summary>
+      <summary><b> Key Insights and Interpretation </b></summary>
       balabalablbabablablablabla
     </details>
 
