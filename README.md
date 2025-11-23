@@ -1,4 +1,4 @@
-# 🧠 AI-Compiler-and-Beyond
+# 🧠 AI-Compiler-and-Beyond (Knowledge Sharing)
 Focusing on key AI compiler papers from academia and industry, covering related areas such as AI accelerators, code optimization, and high-level synthesis, etc.
 
 Additional analyses and insights from the paper are summarized and provided in the expandable supplementary section below.
@@ -14,10 +14,11 @@ Additional analyses and insights from the paper are summarized and provided in t
 <!-- - [Papers](#papers)
   - [Survey](#survey) -->
 - [AI Compiler](#ai-compiler)
+  - [Modeling](#performance-modeling)
   - [Dataflow Optimization](#dataflow-optimization)
 
 - [AI Accelerators](#ai-accelerators)
-  - [Architecture](#architecture)
+  - [Architecture](#architecture-of-ai-accelerators)
   - [FPGA Overlay](#fpga-overlay)
 
 - [Code Optimization](#code-optimization)
@@ -25,19 +26,24 @@ Additional analyses and insights from the paper are summarized and provided in t
 ---
 
 #  AI Compiler
-
-#### Dataflow Optimization
-  - [Principle based Dataflow Optimization for Communication lower bound in operator-fused tensor Acceler](https://ieeexplore.ieee.org/document/11132765)** — Xu, Lei *et al.*, SJTU, *IEEE/ACM DAC 62nd 2025*. *(7 pages)*
----
-
-# AI Accelerators
-
-#### Architecture
+#### Performance Modeling
   - [How to Keep Pushing ML Accelerator Performance? Know Your Rooflines!](https://ieeexplore.ieee.org/abstract/document/10970753)** — Marian Verhelst *et al.*, KU Leuven, Leuven, Belgium, *JSSC'2025*. *(18 pages)*
     <details close>
       <summary><b> Key Insights and Interpretation  </b></summary>
       A new roofline model for ML accelerators.
     </details>
+
+#### Dataflow Optimization
+  - [Principle based Dataflow Optimization for Communication lower bound in operator-fused tensor Acceler](https://ieeexplore.ieee.org/document/11132765)** — Xu, Lei *et al.*, SJTU, *IEEE/ACM DAC 62nd 2025*. *(7 pages)*
+  - timeloop todo
+---
+
+# AI Accelerators
+
+#### Architecture of AI Accelerators
+Eyriss
+TPU
+Gemmini
 
 #### FPGA Overlay
   - [FlightVGM: Efficient Video Generation Model Inference with Online Sparsification and Hybrid Precision on FPGAs](https://dl.acm.org/doi/10.1145/3706628.3708864)** — Liu, Jun *et al.*, SJTU, *IEEE FPGA'2025*, **Best Paper**. *(23 pages)*
@@ -68,10 +74,10 @@ Additional analyses and insights from the paper are summarized and provided in t
     </details>
 
     [Loop interchange and tiling for multi-dimensional loops to minimize write operations on NVMs](https://www.sciencedirect.com/science/article/pii/S1383762122002843)** — Rui Xu *et al.*, East China Normal University, *Journal of Systems Architecture (JSA'2022)*. *(13 pages)*
-    <details close>
+    <!-- <details close>
       <summary><b>Key Insights</b></summary>
         
   
-    </details>
+    </details> -->
 
 ##  📑 HLS
