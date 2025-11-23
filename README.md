@@ -33,7 +33,7 @@ Additional analyses and insights from the paper are summarized and provided in t
 # AI Accelerators
 
 #### Architecture
-  - [How to Keep Pushing ML Accelerator Performance? Know Your Rooflines!](https://dl.acm.org/doi/10.1145/3706628.3708864)** — Marian Verhelst *et al.*, KU Leuven, Leuven, Belgium, *JSSC'2025*. *(18 pages)*
+  - [How to Keep Pushing ML Accelerator Performance? Know Your Rooflines!](https://ieeexplore.ieee.org/abstract/document/10970753)** — Marian Verhelst *et al.*, KU Leuven, Leuven, Belgium, *JSSC'2025*. *(18 pages)*
     <details close>
       <summary><b> Key Insights and Interpretation  </b></summary>
       A new roofline model for ML accelerators.
@@ -43,7 +43,7 @@ Additional analyses and insights from the paper are summarized and provided in t
   - [FlightVGM: Efficient Video Generation Model Inference with Online Sparsification and Hybrid Precision on FPGAs](https://dl.acm.org/doi/10.1145/3706628.3708864)** — Liu, Jun *et al.*, SJTU, *IEEE FPGA'2025*, **Best Paper**. *(23 pages)*
     <details close>
       <summary><b> Key Insights and Interpretation </b></summary>
-      A Chinese Interpretation by Mion Lou is released in [Zhihu](https://zhuanlan.zhihu.com/p/1966485760665456986).
+      A Chinese Interpretation by Mion Lou is released in [Zhihu](https://zhuanlan.zhihu.com/p/1966485760665456986)**.
 
       An extension work from the same authors on FlightLLM(FPGA'2024). Two impressive aspects: 
       
