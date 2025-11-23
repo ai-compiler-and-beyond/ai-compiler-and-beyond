@@ -17,6 +17,7 @@ Additional analyses and insights from the paper are summarized and provided in t
   - [Dataflow Optimization](#dataflow-optimization)
 
 - [AI Accelerators](#ai-accelerators)
+  - [Architecture](#architecture)
   - [FPGA Overlay](#fpga-overlay)
 
 - [Code Optimization](#code-optimization)
@@ -31,11 +32,24 @@ Additional analyses and insights from the paper are summarized and provided in t
 
 # AI Accelerators
 
+#### Architecture
+  - [How to Keep Pushing ML Accelerator Performance? Know Your Rooflines!](https://dl.acm.org/doi/10.1145/3706628.3708864)** — Marian Verhelst *et al.*, KU Leuven, Leuven, Belgium, *JSSC'2025*. *(18 pages)*
+    <details close>
+      <summary><b> Key Insights and Interpretation  </b></summary>
+      A new roofline model for ML accelerators.
+    </details>
+
 #### FPGA Overlay
   - [FlightVGM: Efficient Video Generation Model Inference with Online Sparsification and Hybrid Precision on FPGAs](https://dl.acm.org/doi/10.1145/3706628.3708864)** — Liu, Jun *et al.*, SJTU, *IEEE FPGA'2025*, **Best Paper**. *(23 pages)*
     <details close>
       <summary><b> Key Insights and Interpretation </b></summary>
-      balabalablbabablablablabla
+      A Chinese Interpretation by Mion Lou is released in [Zhihu](https://zhuanlan.zhihu.com/p/1966485760665456986).
+
+      An extension work from the same authors on FlightLLM(FPGA'2024). Two impressive aspects: 
+      
+      1 online activation sparsity along temporal dimension for VGM.
+      
+      2 an extension to the FPGA DSP block, to support 4 int8 mac or 2 float16 mac, with DSP and lut resource sharing.  
     </details>
 ---
 
@@ -51,6 +65,13 @@ Additional analyses and insights from the paper are summarized and provided in t
       These findings are consistent with our observations from loop transformations for our own accelerator, as traditional ILP-based polyhedral transformations (e.g., Pluto) may fail to discover architecture-specific optimal transformations — especially when loop interactions and cache behaviors are non-trivial.
 
       Their SVM-based hierarchical classifier learns performance patterns of tiled loops on Intel Xeon Cascade Lake and Xeon Phi (KNL), achieving results within 9–18% of the optimal execution time.
+    </details>
+
+    [Loop interchange and tiling for multi-dimensional loops to minimize write operations on NVMs](https://www.sciencedirect.com/science/article/pii/S1383762122002843)** — Rui Xu *et al.*, East China Normal University, *Journal of Systems Architecture (JSA'2022)*. *(13 pages)*
+    <details close>
+      <summary><b>Key Insights</b></summary>
+        
+  
     </details>
 
 ##  📑 HLS
