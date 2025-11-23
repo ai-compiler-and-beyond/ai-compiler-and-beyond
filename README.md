@@ -27,11 +27,11 @@ Additional analyses and insights from the paper are summarized and provided in t
 
 #  AI Compiler
 #### Performance Modeling
-  - [How to Keep Pushing ML Accelerator Performance? Know Your Rooflines!](https://ieeexplore.ieee.org/abstract/document/10970753)** — Marian Verhelst *et al.*, KU Leuven, Leuven, Belgium, *JSSC'2025*. *(18 pages)*
-    <details close>
+  - [How to Keep Pushing ML Accelerator Performance? Know Your Rooflines!](https://ieeexplore.ieee.org/abstract/document/10970753)** — Marian Verhelst *et al.*, KU Leuven, Leuven, Belgium, *JSSC'2025*. *(18 pages)* <details close>
       <summary><b> Key Insights and Interpretation  </b></summary>
       A new roofline model for ML accelerators.
     </details>
+  maestro
 
 #### Dataflow Optimization
   - [Principle based Dataflow Optimization for Communication lower bound in operator-fused tensor Acceler](https://ieeexplore.ieee.org/document/11132765)** — Xu, Lei *et al.*, SJTU, *IEEE/ACM DAC 62nd 2025*. *(7 pages)*
@@ -41,7 +41,11 @@ Additional analyses and insights from the paper are summarized and provided in t
 # AI Accelerators
 
 #### Architecture of AI Accelerators
-Eyriss
+  - [Eyeriss: An energy-efficient reconfigurable accelerator for deep convolutional neural networks](https://ieeexplore.ieee.org/abstract/document/7738524/)**  — Yu-Hsin Chen, Tien-Ju Yang, Joel Emer, Vivienne Sze, MIT, *JSSC 2017*. (~12 pages) 
+  <details close> 
+  <summary><b>Key Insights and Interpretation</b></summary> 
+    Introduced the **row-stationary (RS) dataflow** for CNNs that optimizes data-movement and reuse in a spatial PE array. Developed a fabricated accelerator with 168 PEs and a reconfigurable multicast on-chip network to minimize DRAM access. 
+  </details>
 TPU
 Gemmini
 
