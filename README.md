@@ -63,7 +63,7 @@ Additional analyses and insights from the paper are summarized and provided in t
       Introduced the **row-stationary (RS) dataflow** for CNNs that optimizes data-movement and reuse in a spatial PE array. Developed a fabricated accelerator with 168 PEs and a reconfigurable multicast on-chip network to minimize DRAM access. 
     </details>
   
-  - Google TPU: [Ten Lessons From Three Generations Shaped Google’s TPUv4i : Industrial Product](https://ieeexplore.ieee.org/abstract/document/9499913)**  — Norman P. Jouppi, David Patternson, et al., *ISCA 2021*. (~14 pages)  
+  - Google TPU: [Ten Lessons From Three Generations Shaped Google’s TPUv4i : Industrial Product](https://ieeexplore.ieee.org/abstract/document/9499913)**  — Norman P. Jouppi, David Patternson, et al., Google, *ISCA 2021*. (~14 pages)  
     <details close> 
       <summary><b>Supplementary Analyses and Insights</b></summary> 
       
@@ -92,7 +92,7 @@ Additional analyses and insights from the paper are summarized and provided in t
       These lessons have shaped TPUv4i, an inference DSA that has been deployed since 2020.
     </details>
   
-  - Google TPU: [Ten Lessons From Three Generations Shaped Google’s TPUv4i : Industrial Product](https://ieeexplore.ieee.org/abstract/document/9499913)**  — Genc, Hasan, David Patternson, et al., *ISCA 2021*. (~14 pages)  
+  - [Gemmini: Enabling Systematic Deep-Learning Architecture Evaluation via Full-Stack Integration](https://ieeexplore.ieee.org/abstract/document/9499913)**  —Hasan Genc, et al., UC Berkeley *DAC 2021*. (~6 pages)  
     <details close> 
       <summary><b>Supplementary Analyses and Insights</b></summary> 
         
