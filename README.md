@@ -35,11 +35,14 @@ Additional analyses and insights from the paper are summarized and provided in t
 
         With this representation, data reuse can be analyzed more effectively.
     </details>
+    
+  - [Timeloop: A systematic approach to dnn accelerator evaluation](https://ieeexplore.ieee.org/abstract/document/10970753)** — Angshuman Parashar, *et al.*, NVIDIA, *2019 IEEE international symposium on performance analysis of systems and software (ISPASS)*. *(12 pages)* 
+
   - [How to Keep Pushing ML Accelerator Performance? Know Your Rooflines!](https://ieeexplore.ieee.org/abstract/document/10970753)** — Marian Verhelst *et al.*, KU Leuven, Leuven, Belgium, *JSSC'2025*. *(18 pages)* <details close>
       <summary><b> Supplementary Analyses and Insights  </b></summary>
         A new roofline model for ML accelerators.
     </details>
-  - [Timeloop: A systematic approach to dnn accelerator evaluation](https://ieeexplore.ieee.org/abstract/document/10970753)** — Angshuman Parashar, *et al.*, NVIDIA, *2019 IEEE international symposium on performance analysis of systems and software (ISPASS)*. *(12 pages)* 
+
 
 
 #### Dataflow Optimization
@@ -53,6 +56,7 @@ Additional analyses and insights from the paper are summarized and provided in t
     <summary><b>Supplementary Analyses and Insights</b></summary> 
       Introduced the **row-stationary (RS) dataflow** for CNNs that optimizes data-movement and reuse in a spatial PE array. Developed a fabricated accelerator with 168 PEs and a reconfigurable multicast on-chip network to minimize DRAM access. 
   </details>
+  
   - Google TPU: [Ten Lessons From Three Generations Shaped Google’s TPUv4i : Industrial Product](https://ieeexplore.ieee.org/abstract/document/9499913)**  — Norman P. Jouppi, David Patternson, et al., *ISCA 2021*. (~14 pages) <details close> 
     <summary><b>Supplementary Analyses and Insights</b></summary> 
       Since 2015, Google has deployed multiple generations of TPUs, which have taught us several lessons that changed our perspective:
@@ -79,6 +83,7 @@ Additional analyses and insights from the paper are summarized and provided in t
 
       These lessons have shaped TPUv4i, an inference DSA that has been deployed since 2020.
   </details>
+  
   - Google TPU: [Ten Lessons From Three Generations Shaped Google’s TPUv4i : Industrial Product](https://ieeexplore.ieee.org/abstract/document/9499913)**  — Genc, Hasan, David Patternson, et al., *ISCA 2021*. (~14 pages) <details close> 
     <summary><b>Supplementary Analyses and Insights</b></summary> 
       Open-sourced as part of the Chipyard project and implemented in Chisel. 
@@ -106,6 +111,7 @@ Additional analyses and insights from the paper are summarized and provided in t
 # Code Optimization
 #### Loop Transform
   - Loop tile and reordering: 
+    
     [Tile Size and Loop Order Selection using Machine Learning for Multi-/Many-Core Architectures](https://dl.acm.org/doi/abs/10.1145/3650200.3656630)** — Shilpa Babalad *et al.*, Indian Institute of Science, *ACM International Conference on Supercomputing (ICS'2024)*. *(12 pages)*
     <details close>
       <summary><b>Key Insights</b></summary>
