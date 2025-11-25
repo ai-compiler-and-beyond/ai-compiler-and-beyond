@@ -83,12 +83,10 @@ Additional analyses and insights from the paper are summarized and provided in t
   - [FlightVGM: Efficient Video Generation Model Inference with Online Sparsification and Hybrid Precision on FPGAs](https://dl.acm.org/doi/10.1145/3706628.3708864)** — Liu, Jun *et al.*, SJTU, *IEEE FPGA'2025*, **Best Paper**. *(23 pages)*
       <details close>
         <summary><b>Key Insights and Interpretation </b></summary>
+
         A Chinese Interpretation by Mion Lou is released in [Zhihu](https://zhuanlan.zhihu.com/p/1966485760665456986)**. 
-
         An extension work from the same authors on FlightLLM(FPGA'2024). Two impressive aspects: 
-        
         1 online activation sparsity along temporal dimension for VGM. 
-
         2 an extension to the FPGA DSP block, to support 4 int8 mac or 2 float16 mac, with DSP and lut resource sharing.  
       </details>
 ---
