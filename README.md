@@ -99,6 +99,8 @@ Additional analyses and insights from the paper are summarized and provided in t
         Open-sourced as part of the Chipyard project and implemented in Chisel. 
         
         Supports FP32/FP16/FP8, BF16, and Int32/Int16/Int8, with both WS and OS dataflows.
+
+        Supports C programming and onnx runtime.
         
         Features a size-configurable systolic array with an integrated accumulator.
     </details>
