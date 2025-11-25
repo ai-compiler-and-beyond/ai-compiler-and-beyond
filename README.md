@@ -28,7 +28,7 @@ Additional analyses and insights from the paper are summarized and provided in t
 
 #### Dataflow Optimization
   - [Principle based Dataflow Optimization for Communication lower bound in operator-fused tensor Acceler](https://ieeexplore.ieee.org/document/11132765)** — Xu, Lei *et al.*, SJTU, *IEEE/ACM DAC 62nd 2025*. *(7 pages)*
----
+---   
 
 # AI Accelerators
 
