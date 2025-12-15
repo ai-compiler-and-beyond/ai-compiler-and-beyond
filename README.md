@@ -27,7 +27,7 @@ Additional analyses and insights from the paper are summarized and provided in t
 
 #  AI Compiler
 #### Performance Modeling
-  - [Understanding Reuse, Performance, and Hardware Cost of DNN Dataflows: A Data-Centric Approach](https://dl.acm.org/doi/abs/10.1145/3352460.3358252)** — Kwon, Hyoukjun and Chatarasi, Prasanth and Pellauer, Michael and Parashar, Angshuman and Sarkar, Vivek and Krishna, Tushar, GeorgiaTech, Georgia, *MICRO'2019*. *(15 pages)*  
+  - [Understanding Reuse, Performance, and Hardware Cost of DNN Dataflows: A Data-Centric Approach](https://dl.acm.org/doi/abs/10.1145/3352460.3358252) — Kwon, Hyoukjun and Chatarasi, Prasanth and Pellauer, Michael and Parashar, Angshuman and Sarkar, Vivek and Krishna, Tushar, GeorgiaTech, Georgia, *MICRO'2019*. *(15 pages)*  
     <details close>
       <summary><b> Supplementary Analyses and Insights  </b></summary>
       
@@ -38,9 +38,9 @@ Additional analyses and insights from the paper are summarized and provided in t
       With this representation, data reuse can be analyzed more effectively.
     </details>
 
-  - [Timeloop: A systematic approach to dnn accelerator evaluation](https://ieeexplore.ieee.org/abstract/document/10970753)** — Angshuman Parashar, *et al.*, NVIDIA, *2019 IEEE international symposium on performance analysis of systems and software (ISPASS)*. *(12 pages)* 
+  - [Timeloop: A systematic approach to dnn accelerator evaluation](https://ieeexplore.ieee.org/abstract/document/10970753) — Angshuman Parashar, *et al.*, NVIDIA, *2019 IEEE international symposium on performance analysis of systems and software (ISPASS)*. *(12 pages)* 
 
-  - [How to Keep Pushing ML Accelerator Performance? Know Your Rooflines!](https://ieeexplore.ieee.org/abstract/document/10970753)** — Marian Verhelst *et al.*, KU Leuven, Leuven, Belgium, *JSSC'2025*. *(18 pages)*  
+  - [How to Keep Pushing ML Accelerator Performance? Know Your Rooflines!](https://ieeexplore.ieee.org/abstract/document/10970753) — Marian Verhelst *et al.*, KU Leuven, Leuven, Belgium, *JSSC'2025*. *(18 pages)*  
     <details close>
       <summary><b> Supplementary Analyses and Insights  </b></summary>
       
@@ -50,26 +50,26 @@ Additional analyses and insights from the paper are summarized and provided in t
 
 
 #### Tensor Operator Exploration & Dataflow Optimization
-  - [GAMMA Automating the HW Mapping of DNN Models on Accelerators via Genetic Algorithm](https://ieeexplore.ieee.org/abstract/document/9256431)** — Sheng-Chun Kao, Tushar Krishna, GeorgiaTech, *IEEE/ACM ICCAD 2020*. *(9 pages)*
+  - [GAMMA Automating the HW Mapping of DNN Models on Accelerators via Genetic Algorithm](https://ieeexplore.ieee.org/abstract/document/9256431) — Sheng-Chun Kao, Tushar Krishna, GeorgiaTech, *IEEE/ACM ICCAD 2020*. *(9 pages)*
 
-  - [Mind Mappings: Enabling Efficient Algorithm-Accelerator Mapping Space Search](https://dl.acm.org/doi/abs/10.1145/3445814.3446762)** — Kartik Hegde *et al.*, UIUC, *ACM ASPLOS 2021*. *(16 pages)*
+  - [Mind Mappings: Enabling Efficient Algorithm-Accelerator Mapping Space Search](https://dl.acm.org/doi/abs/10.1145/3445814.3446762) — Kartik Hegde *et al.*, UIUC, *ACM ASPLOS 2021*. *(16 pages)*
 
-  - [Soter: Analytical Tensor-Architecture Modeling and Automatic Tensor Program Tuning for Spatial Accelerators](https://ieeexplore.ieee.org/document/11132765)** — Fuyu Wang *et al.*, Sun Yat-Sen University, *IEEE/ACM ISCA 52st 2024*. *(14 pages)*
+  - [Soter: Analytical Tensor-Architecture Modeling and Automatic Tensor Program Tuning for Spatial Accelerators](https://ieeexplore.ieee.org/document/11132765) — Fuyu Wang *et al.*, Sun Yat-Sen University, *IEEE/ACM ISCA 52st 2024*. *(14 pages)*
 
-  - [Principle based Dataflow Optimization for Communication lower bound in operator-fused tensor Acceler](https://ieeexplore.ieee.org/document/11132765)** — Xu, Lei *et al.*, SJTU, *IEEE/ACM DAC 62nd 2025*. *(7 pages)*
+  - [Principle based Dataflow Optimization for Communication lower bound in operator-fused tensor Acceler](https://ieeexplore.ieee.org/document/11132765) — Xu, Lei *et al.*, SJTU, *IEEE/ACM DAC 62nd 2025*. *(7 pages)*
 ---
 
 # AI Accelerators
 
 #### Architecture of AI Accelerators
-  - [Eyeriss: An energy-efficient reconfigurable accelerator for deep convolutional neural networks](https://ieeexplore.ieee.org/abstract/document/7738524/)**  — Yu-Hsin Chen, Tien-Ju Yang, Joel Emer, Vivienne Sze, MIT, *JSSC 2017*. (~12 pages)  
+  - [Eyeriss: An energy-efficient reconfigurable accelerator for deep convolutional neural networks](https://ieeexplore.ieee.org/abstract/document/7738524/)  — Yu-Hsin Chen, Tien-Ju Yang, Joel Emer, Vivienne Sze, MIT, *JSSC 2017*. (~12 pages)  
     <details close> 
       <summary><b>Supplementary Analyses and Insights</b></summary> 
       
       Introduced the **row-stationary (RS) dataflow** for CNNs that optimizes data-movement and reuse in a spatial PE array. Developed a fabricated accelerator with 168 PEs and a reconfigurable multicast on-chip network to minimize DRAM access. 
     </details>
   
-  - Google TPU: [Ten Lessons From Three Generations Shaped Google’s TPUv4i : Industrial Product](https://ieeexplore.ieee.org/abstract/document/9499913)**  — Norman P. Jouppi, David Patternson, et al., Google, *ISCA 2021*. (~14 pages)  
+  - Google TPU: [Ten Lessons From Three Generations Shaped Google’s TPUv4i : Industrial Product](https://ieeexplore.ieee.org/abstract/document/9499913)  — Norman P. Jouppi, David Patternson, et al., Google, *ISCA 2021*. (~14 pages)  
     <details close> 
       <summary><b>Supplementary Analyses and Insights</b></summary> 
       
@@ -98,7 +98,7 @@ Additional analyses and insights from the paper are summarized and provided in t
       These lessons have shaped TPUv4i, an inference DSA that has been deployed since 2020.
     </details>
   
-  - [Gemmini: Enabling Systematic Deep-Learning Architecture Evaluation via Full-Stack Integration](https://ieeexplore.ieee.org/abstract/document/9499913)**  —Hasan Genc, et al., UC Berkeley *DAC 2021*. (~6 pages)  
+  - [Gemmini: Enabling Systematic Deep-Learning Architecture Evaluation via Full-Stack Integration](https://ieeexplore.ieee.org/abstract/document/9499913)  —Hasan Genc, et al., UC Berkeley *DAC 2021*. (~6 pages)  
     <details close> 
       <summary><b>Supplementary Analyses and Insights</b></summary> 
         
@@ -113,11 +113,11 @@ Additional analyses and insights from the paper are summarized and provided in t
 
 
 #### FPGA Overlay
-  - [FlightVGM: Efficient Video Generation Model Inference with Online Sparsification and Hybrid Precision on FPGAs](https://dl.acm.org/doi/10.1145/3706628.3708864)** — Liu, Jun *et al.*, SJTU, *IEEE FPGA'2025*, **Best Paper**. *(23 pages)*
+  - [FlightVGM: Efficient Video Generation Model Inference with Online Sparsification and Hybrid Precision on FPGAs](https://dl.acm.org/doi/10.1145/3706628.3708864) — Liu, Jun *et al.*, SJTU, *IEEE FPGA'2025*, **Best Paper**. *(23 pages)*
     <details close>
       <summary><b>Key Insights and Interpretation </b></summary>
 
-      A Chinese Interpretation by Mion Lou is released in [Zhihu](https://zhuanlan.zhihu.com/p/1966485760665456986)**. 
+      A Chinese Interpretation by Mion Lou is released in [Zhihu](https://zhuanlan.zhihu.com/p/1966485760665456986). 
       
       An extension work from the same authors on FlightLLM(FPGA'2024). Two impressive aspects: 
       
@@ -131,7 +131,7 @@ Additional analyses and insights from the paper are summarized and provided in t
 #### Loop Transform
   - Loop tile and reordering: 
     
-    [Tile Size and Loop Order Selection using Machine Learning for Multi-/Many-Core Architectures](https://dl.acm.org/doi/abs/10.1145/3650200.3656630)** — Shilpa Babalad *et al.*, Indian Institute of Science, *ACM International Conference on Supercomputing (ICS'2024)*. *(12 pages)*
+    [Tile Size and Loop Order Selection using Machine Learning for Multi-/Many-Core Architectures](https://dl.acm.org/doi/abs/10.1145/3650200.3656630) — Shilpa Babalad *et al.*, Indian Institute of Science, *ACM International Conference on Supercomputing (ICS'2024)*. *(12 pages)*
     <details close>
       <summary><b>Key Insights</b></summary>
 
@@ -142,6 +142,6 @@ Additional analyses and insights from the paper are summarized and provided in t
       Their SVM-based hierarchical classifier learns performance patterns of tiled loops on Intel Xeon Cascade Lake and Xeon Phi (KNL), achieving results within 9–18% of the optimal execution time.
     </details>
 
-    [Loop interchange and tiling for multi-dimensional loops to minimize write operations on NVMs](https://www.sciencedirect.com/science/article/pii/S1383762122002843)** — Rui Xu *et al.*, East China Normal University, *Journal of Systems Architecture (JSA'2022)*. *(13 pages)*
+    [Loop interchange and tiling for multi-dimensional loops to minimize write operations on NVMs](https://www.sciencedirect.com/science/article/pii/S1383762122002843) — Rui Xu *et al.*, East China Normal University, *Journal of Systems Architecture (JSA'2022)*. *(13 pages)*
 
 #  📑 HLS
