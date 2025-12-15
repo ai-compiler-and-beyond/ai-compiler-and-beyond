@@ -15,7 +15,7 @@ Additional analyses and insights from the paper are summarized and provided in t
   - [Survey](#survey) -->
 - [AI Compiler](#ai-compiler)
   - [Modeling](#performance-modeling)
-  - [Dataflow Optimization](#dataflow-optimization)
+  - [Dataflow Optimization](#tensor-operator-exploration-&-dataflow-optimization)
 
 - [AI Accelerators](#ai-accelerators)
   - [Architecture](#architecture-of-ai-accelerators)
