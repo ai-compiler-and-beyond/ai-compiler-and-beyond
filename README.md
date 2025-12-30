@@ -151,6 +151,24 @@ Additional analyses and insights from the paper are summarized and provided in t
       
       Their SVM-based hierarchical classifier learns performance patterns of tiled loops on Intel Xeon Cascade Lake and Xeon Phi (KNL), achieving results within 9–18% of the optimal execution time.
     </details>
+---
+
+# Code Optimization
+#### Loop Transform
+  - Loop tile and reordering: 
+    
+    [Tile Size and Loop Order Selection using Machine Learning for Multi-/Many-Core Architectures](https://dl.acm.org/doi/abs/10.1145/3650200.3656630)** — Shilpa Babalad *et al.*, Indian Institute of Science, *ACM International Conference on Supercomputing (ICS'2024)*. *(12 pages)*
+    <details close>
+      <summary><b>Key Insights</b></summary>
+
+      The authors note that “the tile size and the loop order together result in the best performance. To the best of our knowledge, there does not exist any work that identifies the best-performing tile size and loop order together for nested loops.” 
+
+      These findings are consistent with our observations from loop transformations for our own accelerator, as traditional ILP-based polyhedral transformations (e.g., Pluto) may fail to discover architecture-specific optimal transformations — especially when loop interactions and cache behaviors are non-trivial. 
+      
+      Their SVM-based hierarchical classifier learns performance patterns of tiled loops on Intel Xeon Cascade Lake and Xeon Phi (KNL), achieving results within 9–18% of the optimal execution time.
+    </details>
+
+    [Loop interchange and tiling for multi-dimensional loops to minimize write operations on NVMs](https://www.sciencedirect.com/science/article/pii/S1383762122002843)** — Rui Xu *et al.*, East China Normal University, *Journal of Systems Architecture (JSA'2022)*. *(13 pages)*
 
     [Loop interchange and tiling for multi-dimensional loops to minimize write operations on NVMs](https://www.sciencedirect.com/science/article/pii/S1383762122002843) — Rui Xu *et al.*, East China Normal University, *Journal of Systems Architecture (JSA'2022)*. *(13 pages)*
 
