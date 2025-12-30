@@ -53,8 +53,18 @@ Additional analyses and insights from the paper are summarized and provided in t
   - [GAMMA Automating the HW Mapping of DNN Models on Accelerators via Genetic Algorithm](https://ieeexplore.ieee.org/abstract/document/9256431) — Sheng-Chun Kao, Tushar Krishna, GeorgiaTech, *IEEE/ACM ICCAD 2020*. *(9 pages)*
 
   - [Mind Mappings: Enabling Efficient Algorithm-Accelerator Mapping Space Search](https://dl.acm.org/doi/abs/10.1145/3445814.3446762) — Kartik Hegde *et al.*, UIUC, *ACM ASPLOS 2021*. *(16 pages)*
+    <details close>
+      <summary><b> Supplementary Analyses and Insights  </b></summary>
+      
+      Focuses on improving the DSE algorithm.
+    </details>
 
   - [Soter: Analytical Tensor-Architecture Modeling and Automatic Tensor Program Tuning for Spatial Accelerators](https://ieeexplore.ieee.org/document/11132765) — Fuyu Wang *et al.*, Sun Yat-Sen University, *IEEE/ACM ISCA 52st 2024*. *(14 pages)*
+    <details close>
+      <summary><b> Supplementary Analyses and Insights  </b></summary>
+      
+      Performs progressive pruning: each time a parameter is fixed, it derives tighter constraints that shrink the remaining search space and reduce unnecessary exploration.
+    </details>
 
   - [Principle based Dataflow Optimization for Communication lower bound in operator-fused tensor Acceler](https://ieeexplore.ieee.org/document/11132765) — Xu, Lei *et al.*, SJTU, *IEEE/ACM DAC 62nd 2025*. *(7 pages)*
 ---
