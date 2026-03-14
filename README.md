@@ -16,6 +16,7 @@ Additional analyses and insights from the paper are summarized and provided in t
 - [AI Compiler](#ai-compiler)
   - [Modeling](#performance-modeling)
   - [Tensor Operator Exploration & Dataflow Optimization](#tensor-operator-exploration--dataflow-optimization)
+  - [Training/Inference Parallel and Partitioning](#Training-Inference-Parallel-and-Partitioning)
 
 - [AI Accelerators](#ai-accelerators)
   - [Architecture](#architecture-of-ai-accelerators)
@@ -67,6 +68,17 @@ Additional analyses and insights from the paper are summarized and provided in t
     </details>
 
   - [Principle based Dataflow Optimization for Communication lower bound in operator-fused tensor Acceler](https://ieeexplore.ieee.org/document/11132765) — Xu, Lei *et al.*, SJTU, *IEEE/ACM DAC 62nd 2025*. *(7 pages)*
+
+#### Training/Inference Parallel and Partitioning
+  - [PartIR: Composing SPMD Partitioning Strategies for Machine Learning](https://dl.acm.org/doi/abs/10.1145/3669940.3707284) — Sami Alabed and et al., Google Deepmind, *ASPLOS 2025*. *(15 pages)*
+
+  - [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053) — Mohammad Shoeybi *et al.*, NVIDIA, *arXiv 2019*.
+
+  - [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](https://arxiv.org/abs/1910.02054) — Samyam Rajbhandari, Jeff Rasley, Olatunji Ruwase, Yuxiong He, Microsoft, *SC 2020*. *(ZeRO-1/2/3)*
+
+  - [ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning](https://arxiv.org/abs/2104.07857) — Samyam Rajbhandari, Olatunji Ruwase, Jeff Rasley, Shaden Smith, Yuxiong He, Microsoft, *SC 2021*.
+
+  - [ZeRO++: Extremely Efficient Collective Communication for Giant Model Training](https://arxiv.org/abs/2306.10209) — Guanhua Wang *et al.*, Microsoft, *arXiv 2023*.
 ---
 
 # AI Accelerators
